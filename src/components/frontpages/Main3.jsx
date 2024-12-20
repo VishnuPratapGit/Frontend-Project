@@ -38,7 +38,7 @@ const Main3 = () => {
 
             <div className="px-24 py-20">
                 <div className="grid grid-cols-3 gap-5">
-                    <div className="border p-7 rounded-3xl border-neutral-800 hover:border-slate-200 transition-all duration-200 bg-stone-950">
+                    <div className="border p-7 rounded-3xl border-neutral-800 hover:border-stone-700 transition-all duration-200 bg-stone-950">
                         <GridItems heading={"Effortless Workout Logging"} content={"Easily log your workouts and monitor your progress over time with our intuitive logging feature."} >
                             <Users size={30} />
                         </GridItems >
