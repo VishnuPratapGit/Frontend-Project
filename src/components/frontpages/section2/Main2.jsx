@@ -1,11 +1,7 @@
 import { CirclePlay } from "lucide-react";
 import "./Main2.css";
 import { useState } from "react";
-import analyze from "../../assets/analyze.png";
-import challange from "../../assets/challange.png";
-import connect from "../../assets/connect.png";
-import track from "../../assets/track.png";
-import train from "../../assets/train.png";
+import { analyze, challange, connect, track, train } from "../../index"
 
 const NumberRecordContainer = ({ data, content }) => {
   return (

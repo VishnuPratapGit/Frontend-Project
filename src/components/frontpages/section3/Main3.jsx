@@ -1,26 +1,10 @@
-import mobile from "../../assets/mobile.png";
-import time from "../../assets/time.png";
-import plan from "../../assets/plan.png";
-import graph from "../../assets/graph.png";
+import { mobile, time, plan, graph } from "../../index"
 import { Users } from 'lucide-react';
-import ContentBox from "../ContentBox";
-import Carousel from "../Carousel";
-import "./Main3.css";
+import ContentBox from "./ContentBox";
+import Carousel from "./Carousel";
 import Marquee from "react-fast-marquee";
-
-const GridItems = ({ heading = "", content = "", children }) => {
-    return (
-        <>
-            <div className="flex justify-center items-center p-3 w-max bg-neutral-900 rounded-xl border border-neutral-800">
-                {children}
-            </div>
-            <div className="mt-10">
-                <h1 className="text-xl font-semibold text-customRed">{heading}</h1>
-                <h1 className="text-lg font-quicksand dark:text-zinc-400 font-semibold mt-2">{content}</h1>
-            </div>
-        </>
-    )
-}
+import GridItems from "./GridItems";
+import "./Main3.css";
 
 const Main3 = () => {
     return (
