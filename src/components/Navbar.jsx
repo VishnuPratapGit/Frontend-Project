@@ -10,8 +10,8 @@ const Navbar = () => {
         </div>
         <div className="h-full">
           <ul className="flex justify-evenly items-center text-lg gap-6 h-full text-neutral-400">
-            <li>Home</li>
-            <li>About</li>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
             <li className="h-full">
               <DropDown />
             </li>

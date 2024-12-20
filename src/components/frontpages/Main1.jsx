@@ -2,7 +2,7 @@ import React from "react";
 import "./Main1.css";
 const Main1 = () => {
   return (
-    <div className="min-h-svh flex items-center heroimage">
+    <div id="home" className="min-h-svh flex items-center heroimage">
       <div className="flex flex-col items-center px-36 gap-4">
         <h1 className="text-center text-[85px] leading-[100px] scale-animation font-[900] text-customRed">
           Track Your Fitness Journey

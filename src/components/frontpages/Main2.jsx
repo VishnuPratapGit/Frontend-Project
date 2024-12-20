@@ -36,7 +36,7 @@ const Main2 = () => {
   const [hide, setHide] = useState(true);
 
   return (
-    <section className="flex items-center flex-col gap-10 w-full">
+    <section id="about" className="flex items-center flex-col gap-10 w-full">
       <div className="flex flex-col items-center px-52 gap-4 py-10">
         <h1 className="text-center text-7xl px-10 scroll-animation leading-[80px] font-extrabold text-customRed">
           YOUR FITNESS. OUR MISSION.
