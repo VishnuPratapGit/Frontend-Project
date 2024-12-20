@@ -6,7 +6,6 @@ import { Users } from 'lucide-react';
 import ContentBox from "../ContentBox";
 import Carousel from "../Carousel";
 import "./Main3.css";
-// import Marquee from "../Marquee";
 import Marquee from "react-fast-marquee";
 
 const GridItems = ({ heading = "", content = "", children }) => {
