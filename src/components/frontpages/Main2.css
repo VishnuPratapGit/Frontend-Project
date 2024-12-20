@@ -1,0 +1,23 @@
+.video-image {
+  background-image: url("../../assets/gymImage.png");
+  height: 500px;
+  width: 65%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-blend-mode: multiply;
+}
+
+.shadow-box {
+  animation: animateplay 2s ease-out infinite;
+}
+
+@keyframes animateplay {
+  0%,
+  100% {
+    box-shadow: inset 0 0 0 5px rgba(255, 255, 255, 0);
+  }
+  50% {
+    box-shadow: inset 0 0 0 5px white;
+  }
+}

@@ -1,0 +1,11 @@
+.heroimage {
+  background-image: linear-gradient(to bottom,
+      rgba(0, 0, 0, 0) 70%,
+      rgba(0, 0, 0, 0.8) 100%),
+    radial-gradient(circle, rgba(0, 0, 0, 0) 10%, rgba(0, 0, 0, 0.5) 20%),
+    url("../../assets/Hero.png");
+  background-color: rgba(218, 129, 57, 0.4);
+  background-size: cover;
+  background-blend-mode: multiply;
+  box-shadow: inset 100 100 0 100 black;
+}
